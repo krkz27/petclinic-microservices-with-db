@@ -1,13 +1,13 @@
 nodes:
-  - address: 172.31.87.228
-    internal_address: 172.31.87.228
+  - address: 172.31.86.145
+    internal_address: 172.31.86.145
     user: ubuntu
     role:
       - controlplane
       - etcd
       - worker
 
-# ignore_docker_version: true
+ignore_docker_version: true
 
 services:
   etcd:
